@@ -1,4 +1,5 @@
 # Bootstrap-Web
+<img width="" height="" src="./images/slide.jpg"></img>
 ## <스마트교복> 웹사이트
     제작 시기(소요 시간): 2020년(10일)
     개발 언어: 코딩[HTML5/CSS3/jquery/bootstrap.min.js], Photoshop
