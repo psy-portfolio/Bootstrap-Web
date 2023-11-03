@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta charset="UTF-8">
-	<title>문서 제목</title>
+	<title>스마트교복</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" href="css/reset.css">
@@ -66,8 +66,9 @@
 	  .con-txt span{font-weight: bold;}
     
     .iconwrap{position: relative;}
-    .iconwrap:hover{
-    	box-shadow: 8px 8px 10px rgba(0,0,0,0.5); transform:translate(-10px,-10px); background-color: #
+    #shadow{display: block;}
+    #shadow:hover{
+    	drop-shadow: 8px 8px 10px rgba(0,0,0,0.5); transform:translate(-10px,-10px);
     }
 
 	  h3{font-size: 20px; color: #3D67C7; font-weight: bold; margin-top: 10px; text-align: center;}
@@ -76,18 +77,13 @@
 
 	  .bg-mint{background-color: #d2e5f3;}
     
-    .par{position: relative;}
-	  h5{font-size: 50px; color:#fff; position: absolute; top: 20px; font-weight: bold; line-height: 65px; letter-spacing: 10px;}
+    .par{position: relative;}  
+	  h5{
+	  	position: absolute; left: 50%; transform: translateX(-50%); top: 30px;
+	  	font-size: 40px; color:#fff; 
+	  	font-weight: bold; line-height: 30px; letter-spacing: 5px;}
 	  h5:hover{color:#000;}
 
-	  .nb1{left: 30px;}
-	  .nb2{right: 30px; text-align: right;}
-	  .nb3{left: 30px; text-align: center;}
-	  .tip{letter-spacing: 20px;}
-	  .nb4{top: 30px; left: 90px;}
-	  .nb5{left: 30px;}
-	  .nb6{top: 40px; left: 50px;line-height: 80px;}
-	  .nb7{top: 40px; right: 50px; line-height: 80px;}
 
 
 
@@ -115,7 +111,7 @@
 
 <body>
   <div class="bg-b">
-		<div class="container">
+		<div class="containe mt-0 mb-0">
 			<nav class="navbar navbar-expand-lg navbar-light bg-b">
 				<a class="navbar-brand mb-5" href="#!"><img src="images/smartlogo.png" alt=""></a>
 				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" 
@@ -178,7 +174,7 @@
 		</div>
   </div>
 
-	<div class="wrapper mb-0">
+	<div class="wrapper mt-0">
 	  <ul class="slider"> 
 	  	<li><div class="col-12 col-md-12 con1"><img src="images/slide.jpg" class="w-100" alt=""></div></li>
 	  	<li><div class="col-12 col-md-12 con1"><img src="images/slide2.jpg" class="w-100" alt=""></div></li>
@@ -197,7 +193,7 @@
 				<div class="col-6 col-md-2 iconwrap">
 					<h3>스타일케어</h3>
 					<img src="images/icon1.png" alt="" class="icon1-6">
-					<img src="images/0201.png" alt="" class="w-100 shw">
+					<img src="images/0201.png" alt="" class="w-100 shw" id="shadow">
 				</div>
 			
 
@@ -205,21 +201,21 @@
 				<div class="col-6 col-md-2 iconwrap">
 					<h3>자외선케어</h3>
 					<img src="images/icon2.png" alt="" class="icon1-6">
-					<img src="images/0202.png" alt="" class="w-100 shw">
+					<img src="images/0202.png" alt="" class="w-100 shw" id="shadow">
 				</div>
 			
 		
 				<div class="col-6 col-md-2 iconwrap">
 					<h3>저자극케어</h3>
 					<img src="images/icon3.png" alt="" class="icon1-6">
-					<img src="images/0203.png" alt="" class="w-100 shw">
+					<img src="images/0203.png" alt="" class="w-100 shw" id="shadow">
 				</div>
 		
 
 			  <div class="col-6 col-md-2 iconwrap">
 					<h3>체온조절</h3>
 					<img src="images/icon4.png" alt="" class="icon1-6">
-					<img src="images/0204.png" alt="" class="w-100 shw">
+					<img src="images/0204.png" alt="" class="w-100 shw" id="shadow">
 				</div>
 		
 
@@ -227,14 +223,14 @@
 				<div class="col-6 col-md-2 iconwrap">
 					<h3>오염방지</h3>
 					<img src="images/icon5.png" alt="" class="icon1-6">
-					<img src="images/0205.png" alt="" class="w-100 shw">
+					<img src="images/0205.png" alt="" class="w-100 shw" id="shadow">
 				</div>
 			
 
 				<div class="col-6 col-md-2 iconwrap">
 					<h3>항균케어</h3>
 					<img src="images/icon6.png" alt="" class="icon1-6">
-					<img src="images/0206.png" alt="" class="w-100 shw">
+					<img src="images/0206.png" alt="" class="w-100 shw" id="shadow">
 				</div>
 		
       </div>
@@ -256,17 +252,17 @@
 		<div class="container px-0">
 			<div class="row">
 				<div class="col-12 pl-0 pr-0 p-3 par col-md-4">
-					<h5 class="nb1">소년<br>스타일</h5>
+					<h5 class="nb1">소년</h5>
 					<a href="sub3.html?sub01=0"><img src="images/sm0301.jpg" alt="" class="w-100"></a>
 				</div>
 
 				<div class="col-12 pl-0 pr-0 p-3 par col-md-4">
-					<h5 class="nb2">소녀<br>스타일</h5>
+					<h5 class="nb2">소녀</h5>
 		      <a href="sub3.html?sub01=1"><img src="images/sm0302.jpg" alt="" class="w-100"></a> 
 				</div>
 
 				<div class="d-none pl-0 pr-0 p-3 par d-md-block col-md-4">
-					<h5 class="nb3">관<br>리<br>T<br>I<br>P</h5>
+					<h5 class="nb3">TIP</h5>
 					<a href="sub2.html?sub01=3"><img src="images/sm0303.jpg" alt="" class="w-100"></a>
 				</div>
 
@@ -284,17 +280,17 @@
 				</div>
 
 				<div class="d-none pl-0 pr-0 p-3 par d-md-block col-md-4">
-					<h5 class="nb5">스마트<br>필름</h5>
+					<h5 class="nb5">필름</h5>
 					<a href="sub4.html?sub01=0"><img src="images/sm0307.jpg" alt="" class="w-100"></a>
 				</div>
 
 				<div class="col-12 pl-0 pr-0 p-3 par col-md-4">
-					<h5 class="nb6">이<br>벤<br>트</h5>
+					<h5 class="nb6">이벤트</h5>
 					<a href="sub5.html?sub01=1"><img src="images/sm0308.jpg" alt="" class="w-100"></a>
 				</div>
 
 				<div class="col-12 pl-0 pr-0 p-3 par col-md-4">
-					<h5 class="nb7">고<br>객<br>센<br>터</h5>
+					<h5 class="nb7">고객센터</h5>
 					<a href="sub5.html?sub01=2"><img src="images/sm0309.jpg" alt="" class="w-100"></a>
 				</div>
       </div>
